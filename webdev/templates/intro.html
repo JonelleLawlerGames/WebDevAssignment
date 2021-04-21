@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<p> 
+    I'm going to think of a random number between 1 and 1000. I need you to guess what it is!
+</p>
+
+
+<form method="POST" action="/playGame">
+<p>
+    <input type="submit" value="Continue">
+</p>
+</form>
+
+
+{% endblock %}
